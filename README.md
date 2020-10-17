@@ -1,6 +1,6 @@
-# ivann
+# My Personal Website
 
-[![Build Status](https://travis-ci.com/icivann/ivann.svg?branch=master)](https://travis-ci.com/icivann/ivann)
+[![Build Status](https://travis-ci.com/lancelotblanchard/lancelotblanchard.github.io.svg?branch=main)](https://travis-ci.com/lancelotblanchard/lancelotblanchard.github.io)
 
 ## Project setup
 ```
