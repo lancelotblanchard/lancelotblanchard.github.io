@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Inconsolata", monosapce;
+  color: #0d1e2d;
+}
+
+a {
+  color: #777;
+}
+
+a:hover {
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: "Raleway", sans-serif;
+}
+
+.section {
+  padding: 3rem 0 7rem;
+}
+
+.h3 {
+  font-size: 20px;
+}
+
+.h4 {
+  font-size: 16px;
+}
+
+.heading {
+  font-size: 28px;
+}
+
+.sticky-content {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  /* required */
+}
+
+.readmore {
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  transition: .2s all ease;
+  font-weight: 700;
+}
+
+.readmore:active, .readmore:focus, .readmore:hover {
+  outline: none;
+}
+
+.readmore:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+}
+
+/* Images */
+
+@media (min-width: 768px) {
+  .thumbnail {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .thumbnail {
+    width: 35rem;
+  }
+}

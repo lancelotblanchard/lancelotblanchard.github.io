@@ -18,6 +18,17 @@ const routes: Array<RouteConfig> = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
+  // TODO Add Contact Form
+  // {
+  //   path: '/contact',
+  //   name: 'Contact',
+  //   component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
+  // },
+  {
+    path: '/project/:id',
+    name: 'Project',
+    component: () => import(/* webpackChunkName: "project" */ '../views/Project.vue'),
+  },
 ];
 
 const router = new VueRouter({

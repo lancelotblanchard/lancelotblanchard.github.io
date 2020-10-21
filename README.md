@@ -2,7 +2,15 @@
 
 [![Build Status](https://travis-ci.com/lancelotblanchard/lancelotblanchard.github.io.svg?branch=main)](https://travis-ci.com/lancelotblanchard/lancelotblanchard.github.io)
 
-## Project setup
+## CI/CD Pipeline
+
+The code pushed to `master` is then built using `npm run build` and deployed 
+to the `pages` branch, which is picked up by GitHub Pages to be served on 
+[lancelotblanchard.github.io](https://lancelotblanchard.github.io).
+
+## NPM CLI Commands
+
+### Project setup
 ```
 npm install
 ```
