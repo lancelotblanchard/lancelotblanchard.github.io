@@ -33,7 +33,7 @@
                     how to use the facilities.
                   </p>
                 </div>
-                <p><a href="#" class="readmore">Download CV</a></p>
+                <p><a :href="`${publicPath}cv.pdf`" download class="readmore">Download CV</a></p>
               </div>
             </div>
           </div>
@@ -48,6 +48,8 @@ import { Component, Vue } from 'vue-property-decorator';
 
 @Component
 export default class About extends Vue {
+  private publicPath = process.env.BASE_URL;
+
   mounted() {
     document.title = 'Lancelot Blanchard | About';
   }
