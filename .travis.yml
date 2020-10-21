@@ -15,5 +15,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   keep_history: true
   target_branch: pages
+  fqdn: lancelotblanchard.com
   on:
     branch: main
