@@ -95,8 +95,8 @@ const projectList: Project[] = [
     + 'to analyse in order to gain a deeper understanding of the effect of Music on people\'s '
     + 'emotions.\n\n'
     + 'We were awarded the highest mark _(20/20)_ for this project. The project was also a great '
-    + 'way for me to conduct an authentic Research project in domains that genuinely interest me, '
-    + 'as well as practicing my *Software Engineering* and *Data Science* skills.\n\n'
+    + 'way for me to conduct an authentic Research project in domains that I am truly passionate '
+    + 'about, as well as practicing my *Software Engineering* and *Data Science* skills.\n\n'
     + '_PDF of the magazine available on request._',
     ['View the Survey project on GitHub',
       'https://github.com/lancelotblanchard/music-emotions-survey']),
