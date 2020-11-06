@@ -30,6 +30,29 @@ const projectList: Project[] = [
     + 'stream the live session.',
     ['Visit the website', 'https://djstreamr.com']),
 
+  /* IVANN */
+  new Project('ivann',
+    'IVANN',
+    'A Visual Flow-based Neural Network Builder',
+    ['AI', 'SoftEng'],
+    'Oct 2020 - Present',
+    'ivann.png',
+    'As part of our Third Year Software Engineering Group Project, my team and I are '
+    + 'currently working on *IVANN*, an *Open Source Web App* which allows users to **build '
+    + 'Neural Networks using an Interactive Graph Editor** and which then automatically '
+    + '**generates the code to run them**.\n\n'
+    + '*IVANN* is genuinely customisable as, additionally to provide a *Standard Library*, it '
+    + 'features the ability to *import existing Python code* in order to use it in any part of '
+    + 'the Neural Network. It also features *Type Checking* whose aim is to provide a better '
+    + 'workflow over using Python to code Neural Networks.\n\n'
+    + 'The project allows me to improve my knowledge in *AI* and *ML* and in several Python '
+    + 'Libraries such as *PyTorch*, *Scikit-Learn* and *Tensorflow*. It also allows me to '
+    + 'practice my Full Stack skills using *Vue.js*, *Typescript*, *HTML* and *CSS*. It is also a '
+    + 'great opportunity to contribute to Open Source with a project that can hopefully be helpful '
+    + 'to both *Industry* and *Research*.\n\n'
+    + 'The project is supervised by Imperial College Researcher *Nuri Cingillioglu*.',
+    ['View the Open Source Repo', 'https://github.com/icivann/ivann']),
+
   /* Checkm8 */
   new Project('checkm8',
     'Checkm8',
