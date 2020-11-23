@@ -76,7 +76,7 @@ const projectList: Project[] = [
   new Project('spotify-playlists-analysis',
     'Spotify Playlists Analysis',
     'An Analysis of Spotify Algorithmic Playlists',
-    ['SoftEng', 'Data'],
+    ['SoftEng', 'Data', 'Music'],
     'Jun 2018',
     'spotify-playlists-analysis.jpg',
     'In Year 13, I joined a team of three people for a Computing Group Project (_ISN in the '
