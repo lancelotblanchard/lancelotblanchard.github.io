@@ -14,12 +14,12 @@
               <div class="single-post-content-wrapper pr-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="mb-5">
                   <p>I am currently in the third year of a Masters of Engineering degree in
-                    Computing at Imperial College London. I have always been fascinated by Computer
-                    Science. I started learning C online at the age of ten and Java at the age of
-                    twelve, and I have since then never stopped exploring and building applications
-                    using these languages. I therefore naturally chose to study Computing after high
-                    school and entered Imperial College London where I was granted an Entrance
-                    Scholarship for best application and was featured on the Dean's List at the end
+                    Computing (Artificial Intelligence and Machine Learning) at Imperial College London.
+                    I have always been fascinated by Computer Science. I started learning C online at the
+                    age of ten and Java at the age of twelve, and I have since then never stopped exploring
+                    and building applications using these languages. I therefore naturally chose to study
+                    Computing after high school and entered Imperial College London where I was granted an
+                    Entrance Scholarship for best application and was featured on the Dean's List at the end
                     of my Second Year. I have always wanted to work in this area and to practise
                     my passion in an innovative environment.</p>
 
