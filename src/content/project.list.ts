@@ -2,6 +2,31 @@
 import Project from '@/classes/project';
 
 const projectList: Project[] = [
+  /* MEng Project */
+  new Project('neurosymbolic-ai-music-classification',
+    'Neuroymbolic AI Music Classification',
+    'Interpretable and Interactive Music Genre Classification',
+    ['AI', 'Music'],
+    '2022',
+    'meng.png',
+    'In the scope of my MEng Thesis Project, I am currently applying *Neurosymbolic AI* to the '
+    + 'task of *Music Genre Classification*. The aim of this project is to bring more '
+    + '*interpretability* and *interactivity* in the way this task is traditionally approached. '
+    + 'As a result, the system should be able to provide us with better *musicology insight* in '
+    + 'the theoretical mechanisms that play a role in music genre classification. The system '
+    + 'should also be more *flexible* and *generalisable*, with the ability to correct its '
+    + 'learning when given *human-provided background knowledge*.\n\n'
+    + 'The Symbolic subcomponent of my system exploits the power of the recent Inductive Learning '
+    + 'of Answers Set Programs technology (see [ILASP](https://ilasp.com)). This is a very '
+    + 'efficient tool that allows the inference of causal relationships from logically expressed '
+    + 'programs in a data-efficient and noise-robust way. Additionally, it offers the ability to '
+    + 'input user-defined domain knowledge that the system will then use in its learning. This '
+    + 'provides a great interface that allows for useful human intervention inside the learning '
+    + 'of the model. The Neural subcomponent makes use of a *Quality-Diversity algorithm* and '
+    + 'allows for a quick and efficient traversal of the symbolic search space.\n\n'
+    + 'Results have not yet been published for this work, which is due to be completed by June 2022.',
+    undefined),
+
   /* DJStreamr */
   new Project('djstreamr',
     'DJStreamr',
@@ -35,7 +60,7 @@ const projectList: Project[] = [
     'IVANN',
     'A Visual Flow-based Neural Network Builder',
     ['AI', 'SoftEng'],
-    'Oct 2020 - Present',
+    '2020',
     'ivann.png',
     'As part of our Third Year Software Engineering Group Project, my team and I are '
     + 'currently working on *IVANN*, an *Open Source Web App* which allows users to **build '

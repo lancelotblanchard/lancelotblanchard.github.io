@@ -10,12 +10,12 @@
           <div id="filters" class="filters">
             <a href="#" @click="filter('*')"
                v-bind:class="{ active : filterOption === '*' }">All</a>
+            <a href="#" @click="filter('AI')"
+               v-bind:class="{ active : filterOption === 'AI' }">AI</a>
             <a href="#" @click="filter('SoftEng')"
                v-bind:class="{ active : filterOption === 'SoftEng' }">SoftEng</a>
             <a href="#" @click="filter('Data')"
                v-bind:class="{ active : filterOption === 'Data' }">Data</a>
-            <a href="#" @click="filter('AI')"
-               v-bind:class="{ active : filterOption === 'AI' }">AI</a>
             <a href="#" @click="filter('Music')"
                v-bind:class="{ active : filterOption === 'Music' }">Music</a>
           </div>
