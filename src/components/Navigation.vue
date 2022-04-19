@@ -42,7 +42,10 @@
     </div>
     <nav class="navbar navbar-light custom-navbar">
       <div class="container">
-        <router-link class="navbar-brand" to="/">Lancelot Blanchard</router-link>
+        <router-link class="navbar-brand" to="/">
+          Lancelot Blanchard
+          <small class="text-left"><i>Computer Scientist & Musician</i></small>
+        </router-link>
         <a ref="burger" href="#" class="burger" data-toggle="collapse"
            data-target="#main-navbar" @click="toggleBurger"
            v-bind:class="{ active: isBurgerActive }">
