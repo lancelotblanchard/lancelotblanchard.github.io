@@ -22,7 +22,7 @@ const projectList: Project[] = [
     + 'programs in a data-efficient and noise-robust way. Additionally, it offers the ability to '
     + 'input user-defined domain knowledge that the system will then use in its learning. This '
     + 'provides a great interface that allows for useful human intervention inside the learning '
-    + 'of the model. The Neural subcomponent makes use of a *Quality-Diversity algorithm* and '
+    + 'of the model. The Neural subcomponent is used on top of a *Quality-Diversity algorithm* and '
     + 'allows for a quick and efficient traversal of the symbolic search space.\n\n'
     + 'Results have not yet been published for this work, which is due to be completed by June 2022.',
     undefined),
