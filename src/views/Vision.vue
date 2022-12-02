@@ -41,7 +41,7 @@
             Artificial Intelligence, by providing personalization, adaptability, and a better
             understanding of each individual, thus appears as a lifeboat, offering a way to
             safely and comfortably guide our journey through the unsettling flood of media
-            content. By joining the Media Lab, I aim to build these novel AI integrations
+            content. Throughout my work, I aim to build these novel AI integrations
             that can help make approaching
             <a class="vision-link" @click="scrollTo('theme1')">Education</a>,
             <a class="vision-link" @click="scrollTo('theme2')">Creativity</a>, and
