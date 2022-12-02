@@ -13,7 +13,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4  text-center">
+          <div class="col-md-4 text-center">
             <h3>Links</h3>
             <p>
               Join me on socials:
@@ -40,17 +40,39 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-light custom-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
       <div class="container">
         <router-link class="navbar-brand" to="/">
           Lancelot Blanchard
-          <small class="text-left"><i>Computer Scientist & Musician</i></small>
+          <small class="text-left"><i>AI Researcher - Engineer - Musician</i></small>
         </router-link>
-        <a ref="burger" href="#" class="burger" data-toggle="collapse"
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <router-link class="nav-link" active-class="active" to="/" exact>
+              Home
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" active-class="active" to="/projects" exact>
+              Portfolio
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" active-class="active" to="/about" exact>
+              About Me
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" active-class="active" to="/vision" exact>
+              Vision
+            </router-link>
+          </li>
+        </ul>
+        <!-- <a ref="burger" href="#" class="burger" data-toggle="collapse"
            data-target="#main-navbar" @click="toggleBurger"
            v-bind:class="{ active: isBurgerActive }">
           <span></span>
-        </a>
+        </a> -->
       </div>
     </nav>
   </div>

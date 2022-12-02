@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row mb-4 align-items-center">
         <div class="col-md-12" data-aos="fade-up">
-          <h2>{{ project.name }}</h2>
+          <h2><a href="#" @click="$router.go(-1)">&#8249;</a> {{ project.name }}</h2>
           <p>{{ project.subtitle }}</p>
         </div>
       </div>
@@ -36,7 +36,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 text-center" v-if="buttonBelow">
+          <div class="col-12 text-center" v-if="buttonBelow"
+               data-aos="fade-up" data-aos-delay="100">
             <p v-if="project.href">
               <a :href="project.href[1]" target="_blank" class="readmore">
                 {{ project.href[0] }}

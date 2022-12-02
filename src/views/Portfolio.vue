@@ -26,7 +26,7 @@
                :list="list" v-images-loaded:on.progress="layout">
         <div v-for="(project, index) in list" class="col-sm-6 col-md-4 col-lg-4 mb-4" :key="index"
              @click="scrollAtTop">
-          <router-link :to="`/project/${project.id}`" class="item-wrap fancybox">
+          <router-link :to="`/projects/${project.id}`" class="item-wrap fancybox">
             <div class="work-info px-1">
               <h2>{{ project.name }}</h2>
               <span>{{ project.types.join(' | ') }}</span>

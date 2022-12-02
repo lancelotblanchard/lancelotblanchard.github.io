@@ -2,29 +2,133 @@
 import Project from '@/classes/project';
 
 const projectList: Project[] = [
-  /* MEng Project */
-  new Project('neurosymbolic-ai-music-classification',
-    'Neuroymbolic AI Music Classification',
-    'Interpretable and Interactive Music Genre Classification',
+  /* Argument Assessment from Dialogue */
+  /* TODO Check that I can use it on my website */
+  new Project('argument-assistant',
+    'Argument Assistant from Dialogue',
+    'Augmenting Human Reasoning through an Intelligent Interface',
+    ['AI', 'SoftEng'],
+    '2022',
+    'argument_assistant.jpg',
+    'As part of my Master of Research, I am working with Valdemar Danry and Professor Pattie Maes from MIT Media Lab to '
+    + 'construct a **Neurosymbolic AI** that **models human reasoning** and **analyses arguments and debates** expressed in '
+    + 'natural language. Our architecture seamlessly combines Deep Learning with Logic-based Learning to assist human '
+    + 'users in **defining and expressing their thoughts logically**, **understanding and assessing supporting and challenging '
+    + 'answers**, as well as **keeping up with complex discussions**.\n\n'
+    + 'Through this project, I aim to democratise logical reasoning, facilitate social interactions, and avoid emotional '
+    + 'manipulation, by applying the Argument Assistant to situations ranging from everyday conversations to political '
+    + 'debates.',
+    undefined,
+    ['Theme3']),
+
+  /* StageFright VR */
+  new Project('stagefright',
+    'StageFright VR',
+    'Immersive VR Experience to combat Musical Performance Anxiety',
+    ['Music'],
+    '2022',
+    'stagefright.jpg',
+    'As part of a group project at MIT, I am co-developing StageFright, an **immersive VR experience** that aims to **combat '
+    + 'Music Performance Anxiety** by **simulating a music performance**, **measuring users\' biofeedback**, and '
+    + 'teaching them how to **apply Cognitive Behavioral Therapy techniques** to redefine their emotional response to MPA.\n\n'
+    + 'A 2020 study showed that one in every five performers suffers from Music Performance Anxiety, making up for millions of '
+    + 'people around the world. Through an authentic performance simulation, we aim to help musicians, amateurs or professionals, '
+    + 'conquer their fear of playing in public in order to spread the accessibility of live music performances.',
+    undefined,
+    undefined),
+
+  /* Living Memories */
+  /* TODO Check that I can use it on my website */
+  new Project('living-memories',
+    'Living Memories',
+    'AI-Generated Characters as Digital Mementos',
+    ['AI'],
+    '2022',
+    'living-memories.png',
+    'Together with Pat Pataranutaporn, Valdemar Danry, Lavanay Thakral, and Professor Pattie Maes from MIT Media Lab, '
+    + 'and Misha Sra from UC Santa Barbara, I have been working on creating *Living Memories*, **interactive digital '
+    + 'mementos** that are created from journals, letters and data that an individual have left behind. Like an interactive '
+    + 'photograph, living memories can be talked to and asked questions, **making connecting with the knowledge, attitudes and past '
+    + 'experiences of a person easily accessible.**\n\n'
+    + 'To demonstrate our concept, we created an AI-based pipeline for generating '
+    + 'living memories from any data source and implemented living memories of the three historical figures *Leonardo Da Vinci*, '
+    + '*Murasaki Shikibu*, and *Captain Robert Scott*. Our results show that interacting the living memory in addition to simply '
+    + 'reading a journal increases learning effectiveness and motivation to learn about the character.\n\n'
+    + 'Our paper is currently under review for IUI 2023.',
+    undefined,
+    ['Theme1']),
+
+  /* Immersive Cover Arts */
+  new Project('immersive-cover-arts',
+    'Immersive Cover Arts',
+    'Enhancing Listening Experience through VR Synethesia',
     ['AI', 'Music'],
     '2022',
-    'meng.png',
-    'In the scope of my MEng Thesis Project, I am currently applying *Neurosymbolic AI* to the '
-    + 'task of *Music Genre Classification*. The aim of this project is to bring more '
-    + '*interpretability* and *interactivity* in the way this task is traditionally approached. '
-    + 'As a result, the system should be able to provide us with better *musicology insight* in '
-    + 'the theoretical mechanisms that play a role in music genre classification. The system '
-    + 'should also be more *flexible* and *generalisable*, with the ability to correct its '
-    + 'learning when given *human-provided background knowledge*.\n\n'
-    + 'The Symbolic subcomponent of my system exploits the power of the recent Inductive Learning '
-    + 'of Answers Set Programs technology (see [ILASP](https://ilasp.com)). This is a very '
-    + 'efficient tool that allows the inference of causal relationships from logically expressed '
-    + 'programs in a data-efficient and noise-robust way. Additionally, it offers the ability to '
-    + 'input user-defined domain knowledge that the system will then use in its learning. This '
-    + 'provides a great interface that allows for useful human intervention inside the learning '
-    + 'of the model. The Neural subcomponent is used on top of a *Quality-Diversity algorithm* and '
-    + 'allows for a quick and efficient traversal of the symbolic search space.\n\n'
-    + 'Results have not yet been published for this work, which is due to be completed by June 2022.',
+    'immersive_cover_arts.png',
+    'In this work in progress, I am **augmenting the experience of music listening** in a novel way by transporting '
+    + 'listeners into **virtual immersive environments** inspired by cover arts. This synesthetic experience aims at '
+    + 'redefining the way in which users listen to music, by expanding the range of senses that are solicitated while '
+    + 'listening to musical pieces, and engaging listeners to associate musical elements, lyrical narratives, and '
+    + 'emotions to matching visual aspects.',
+    undefined,
+    undefined),
+
+  /* Human Music */
+  new Project('human-music',
+    'Human Music',
+    'Generating music based on facial expressions, body language, and words.',
+    ['AI', 'Music'],
+    '2022',
+    'human_music.jpg',
+    'Music is a human feeling. To **create music through human mediums**, such as facial expressions, body language, '
+    + 'and the voice, is to **create music organically**, in an **intimate and personal way**. This is the motivation '
+    + 'behind this project. The developed model uses '
+    + 'Contrastive Learning and processes the user\'s facial expressions, body language, and words to generate '
+    + 'music that matches corresponding detected emotions. By using the universal medium of the body and the '
+    + 'face, I aim to make music creation as accessible as possible, and allow anyone to create music that can '
+    + 'capture any emotion and moment that they might go through, and want to remember in another format in the '
+    + 'future. Through this tool, I hope to enhance both the creativity of amateurs and professional musicians, '
+    + 'by offering an inexhaustible source of inspiration in a recording studio.',
+    undefined,
+    ['Theme2']),
+
+  /* Explainable Music Classification */
+  new Project('neurosymbolic-music-classification',
+    'Neurosymbolic Music Classification',
+    'Explainable Classification using Music Theory',
+    ['AI', 'Music'],
+    '2022',
+    'neurosymbolic_classifier.png',
+    'In this work in progress, I am constructing a novel **Music Theory-aware AI** that can **classify Music Genres** '
+    + 'using **explainable theoretical musical features**, and **communicate results in an interactive way**. The '
+    + 'technology is based on [GenFastLAS](#/projects/genfastlas), the Genetic Symbolic Learner that I developed '
+    + 'during my Master\'s Thesis Project, supplemented with an additional Neural subcomponent.\n\n'
+    + 'By manipulating Music Theory, the AI system is equipped with the necessary knowledge and vocabulary to '
+    + 'interact with human users in various ways, therefore gaining explainability and augmenting the learning '
+    + 'benefits of users. The model can learn insightful rules used in the classification process such as '
+    + '*"ii-V-I progressions indicate a jazz music piece with a higher probability"*. By letting the user '
+    + 'navigate between music genres and music theory concepts, the system gives a new insight into the classification '
+    + 'of genres, and embeds a novel way of exploring information and teaching subjects like musicology or others.\n\n'
+    + 'I am currently writing a paper for ISMIR 2023.',
+    undefined,
+    ['Theme1']),
+
+  /* GenFastLAS */
+  new Project('genfastlas',
+    'GenFastLAS',
+    'Genetic Symbolic Learning with Increased Feature Scalability',
+    ['AI'],
+    '2022',
+    'genfastlas.jpg',
+    'As part of my Master\'s Thesis, I developed a GenFastLAS, a novel **Logic-based Learning system** that '
+    + 'combines **Genetic Algorithms** with the **Symbolic Learner FastLAS**, in order to scale the latter to '
+    + '**large feature spaces**. By using Genetic Algorithms to explore symbolic hypothesis spaces, GenFastLAS '
+    + 'can be applied to **solve tasks in a newly explainable, interactive, and efficient way**.\n\n'
+    + 'When applied to complex datasets with large numbers of features (up to 60), GenFastLAS has been shown'
+    + 'to speed up the finding of solutions by a factor of *up to 210 times* the speed of other '
+    + 'FastLAS-based methods, like OLAPH. Accuracy was also shown to greatly improve when using GenFastLAS.\n\n'
+    + 'I am currently writing a paper for IJCAI 2023.',
+    undefined,
     undefined),
 
   /* DJStreamr */
@@ -53,7 +157,8 @@ const projectList: Project[] = [
     + 'Client and to apply our Synchronisation Protocol. We use *AWS* on the Backend with *API '
     + 'Gateways* and *Lambdas* developed in Kotlin. Another *EC2* Server is used in order to '
     + 'stream the live session.',
-    ['Visit the website', 'https://djstreamr.com']),
+    ['Visit the website', 'https://djstreamr.com'],
+    ['Theme2']),
 
   /* IVANN */
   new Project('ivann',
@@ -63,20 +168,21 @@ const projectList: Project[] = [
     '2020',
     'ivann.png',
     'As part of our Third Year Software Engineering Group Project, my team and I are '
-    + 'currently working on *IVANN*, an *Open Source Web App* which allows users to **build '
+    + 'worked on *IVANN*, an *Open Source Web App* which allows users to **build '
     + 'Neural Networks using an Interactive Graph Editor** and which then automatically '
     + '**generates the code to run them**.\n\n'
     + '*IVANN* is genuinely customisable as, additionally to provide a *Standard Library*, it '
     + 'features the ability to *import existing Python code* in order to use it in any part of '
     + 'the Neural Network. It also features *Type Checking* whose aim is to provide a better '
     + 'workflow over using Python to code Neural Networks.\n\n'
-    + 'The project allows me to improve my knowledge in *AI* and *ML* and in several Python '
-    + 'Libraries such as *PyTorch*, *Scikit-Learn* and *Tensorflow*. It also allows me to '
-    + 'practice my Full Stack skills using *Vue.js*, *Typescript*, *HTML* and *CSS*. It is also a '
+    + 'The project allowed me to improve my knowledge in *AI* and *ML* and in several Python '
+    + 'Libraries such as *PyTorch*, *Scikit-Learn* and *Tensorflow*. It also allowed me to '
+    + 'practice my Full Stack skills using *Vue.js*, *Typescript*, *HTML* and *CSS*. It was also a '
     + 'great opportunity to contribute to Open Source with a project that can hopefully be helpful '
     + 'to both *Industry* and *Research*.\n\n'
-    + 'The project is supervised by Imperial College Researcher *Nuri Cingillioglu*.',
-    ['View the Open Source Repo', 'https://github.com/icivann/ivann']),
+    + 'The project was supervised by Imperial College Teaching Scholar *Nuri Cingillioglu*.',
+    ['View the Open Source Repository', 'https://github.com/icivann/ivann'],
+    undefined),
 
   /* Checkm8 */
   new Project('checkm8',
@@ -95,7 +201,8 @@ const projectList: Project[] = [
     + 'The project was awarded the *Most Interesting Extension Prize* and ranked 2nd best project '
     + 'overall. This project also allowed me to practice my skills in C as well as improve my '
     + 'knowledge of *Computer Vision* and the *Blockchain Technology*.',
-    ['View the project on GitHub', 'https://github.com/lancelotblanchard/checkm8-public']),
+    ['View the project on GitHub', 'https://github.com/lancelotblanchard/checkm8-public'],
+    undefined),
 
   /* Spotify Playlists Analysis */
   new Project('spotify-playlists-analysis',
@@ -119,6 +226,7 @@ const projectList: Project[] = [
     + 'learn the *R* language, and practice my *Data Science* skills while gaining knowledge about '
     + 'a topic that genuinely interested me. \n\n'
     + '_Data, Python project and R project available on request._',
+    undefined,
     undefined),
 
   /* Music & Brain */
@@ -147,7 +255,8 @@ const projectList: Project[] = [
     + 'about, as well as practicing my *Software Engineering* and *Data Science* skills.\n\n'
     + '_PDF of the magazine available on request._',
     ['View the Survey project on GitHub',
-      'https://github.com/lancelotblanchard/music-emotions-survey']),
+      'https://github.com/lancelotblanchard/music-emotions-survey'],
+    undefined),
 
   /* Sense */
   new Project('sense',
@@ -165,7 +274,8 @@ const projectList: Project[] = [
     + 'This work allowed the band to reach **more than 8 millions streams** on Spotify as well as '
     + 'the **Billboard Top 10 Charts** in Philippines, and having songs featured in Top-tier '
     + 'playlists on several Music Streaming platforms.',
-    ['Listen to Sense', 'https://smarturl.it/sensebandmusic']),
+    ['Listen to Sense', 'https://smarturl.it/sensebandmusic'],
+    undefined),
 
   /* Tin Can Stories */
   new Project('tin-can-stories',
@@ -180,7 +290,8 @@ const projectList: Project[] = [
     + 'The album was written by Yorick Vinesse and Marius Blanchard, and I co-wrote the songs '
     + '*Tom* and *Blue* on which I also play the piano. All of the songs were recorded by '
     + '*Nicolas Laurençot* in *Studio History* in Paris, and mixed by *Benjamin Garson*.',
-    ['Stream the album', 'https://songwhip.com/upside/tin-can-stories']),
+    ['Stream the album', 'https://songwhip.com/upside/tin-can-stories'],
+    undefined),
 
   /* ICRProduction */
   new Project('icrproduction',
@@ -198,7 +309,8 @@ const projectList: Project[] = [
     + 'design a fully responsive website from scratch to fit my personal needs using *Adobe '
     + 'Photoshop* mockups. I then implemented the website using the *Bootstrap* framework, *HTML*, '
     + '*CSS* and Javascript.',
-    ['Visit the Website', 'https://icrproduction.co.uk']),
+    ['Visit the Website', 'https://icrproduction.co.uk'],
+    undefined),
 
   /* Quack */
   new Project('quack',
@@ -214,6 +326,7 @@ const projectList: Project[] = [
     + 'I developed the app using *Java for Android* and the Server using *Java* and the *Google '
     + 'Cloud Platform*.\n\n'
     + 'The App was released on the Google Play Store and totaled *more than 2,000 downloads*.',
+    undefined,
     undefined),
 ];
 
