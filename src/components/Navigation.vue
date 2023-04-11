@@ -44,7 +44,7 @@
       <div class="container">
         <router-link class="navbar-brand" to="/">
           Lancelot Blanchard
-          <small class="text-left"><i>AI Researcher - Engineer - Musician</i></small>
+          <small class="text-left"><i>Musician - Engineer - AI Researcher</i></small>
         </router-link>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
