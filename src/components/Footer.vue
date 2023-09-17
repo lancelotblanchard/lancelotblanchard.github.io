@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer" role="contentinfo">
+  <footer class="footer mt-auto" role="contentinfo">
     <!-- <div class="container">
       <div class="row">
         <div class="col-sm-6 my-auto">

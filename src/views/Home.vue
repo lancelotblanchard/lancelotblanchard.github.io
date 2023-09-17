@@ -2,20 +2,19 @@
   <section class="home section">
     <div class="container text-left">
       <h1 data-aos="fade-up" data-aos-delay="100">Hello, I'm Lancelot.</h1>
-      <!-- <h2>I am an AI Researcher and Musician</h2> -->
 
       <p data-aos="fade-up" data-aos-delay="200">
-        I am an AI researcher, engineer and musician from the Department
-        of Computing of Imperial College London, currently visiting the Fluid Interfaces
-        group of the MIT Media Lab. My research interests center around the use of
-        Human-Centered Artificial Intelligence (HCAI) for the enhancement of human
-        reasoning and creativity.</p>
+        I am an AI researcher, engineer and musician currently based in Boston, MA.
+        I am a Research Assistant in the Responsive Environments group of the MIT
+        Media Lab, carrying out research in the applications of generative AI for
+        musical expression and communication. I am working with multiple
+        artists and musicians to design interfaces that embed AI and use analog
+        and digital signals to create new musical experiences.</p>
       <p data-aos="fade-up" data-aos-delay="200">
-        I am particularly interested in ways to use Artificial Intelligence as a tool
-        in the generation of wisdom and art, rather than relying on this technology
-        as a unique source of creation. As such, I am interested in the development of
-        interfaces and languages that can help fluidify and strengthen the link
-        between Human users and AI systems.</p>
+        Innovation and technology have always been key for the expansion of human
+        creativity and imagination. Today, I believe that modern technologies like AI
+        need to be thoughtfully integrated into new tools and instruments to create
+        novel forms of expressivity and entertainment and allow new possibilities.</p>
     </div>
     <div class="row mt-5 home-navigation" data-aos="fade-up" data-aos-delay="300">
       <div class="col-2 offset-3">
