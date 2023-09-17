@@ -6,12 +6,12 @@
       <p data-aos="fade-up" data-aos-delay="200">
         I am a musician, engineer, and AI researcher currently based in Boston, MA.
         I am a Research Assistant in the Responsive Environments group of the MIT
-        Media Lab, carrying out research in the applications of generative AI for
+        Media Lab, carrying out research on the applications of generative AI for
         musical expression and communication. I am working with multiple
         artists and musicians to design interfaces that embed AI and use analog
         and digital signals to create new musical experiences.</p>
       <p data-aos="fade-up" data-aos-delay="200">
-        Innovation and technology have always been key for the expansion of human
+        Innovation and technology have always been key to the expansion of human
         creativity and imagination. Today, I believe that modern technologies like AI
         need to be thoughtfully integrated into new tools and instruments to create
         novel forms of expressivity and entertainment and allow new possibilities.</p>
