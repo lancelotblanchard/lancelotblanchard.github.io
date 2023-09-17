@@ -4,7 +4,7 @@
       <h1 data-aos="fade-up" data-aos-delay="100">Hello, I'm Lancelot.</h1>
 
       <p data-aos="fade-up" data-aos-delay="200">
-        I am an AI researcher, engineer and musician currently based in Boston, MA.
+        I am a musician, engineer, and AI researcher currently based in Boston, MA.
         I am a Research Assistant in the Responsive Environments group of the MIT
         Media Lab, carrying out research in the applications of generative AI for
         musical expression and communication. I am working with multiple

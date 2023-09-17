@@ -14,7 +14,7 @@
               <div class="single-post-content-wrapper pr-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="mb-5">
                   <p>
-                    I am an AI researcher, engineer and musician, currently pursuing a
+                    I am a musician, engineer, and AI researcher, currently pursuing a
                     Master's in the Responsive Environments research group of the MIT Media
                     Lab. I hold a Master's of Research in Artificial Intelligence and Machine
                     Learning and a Master's of Engineering in Computing from Imperial College
