@@ -12,7 +12,6 @@
                      alt="Lancelot Blanchard" class="img-fluid thumbnail">
               </div>
               <div class="single-post-content-wrapper pr-5" data-aos="fade-up" data-aos-delay="200">
-                <div class="mb-5">
                   <p>
                     I am a musician, engineer, and AI researcher, currently pursuing a
                     Master's in the Responsive Environments research group of the MIT Media
@@ -28,8 +27,28 @@
                     read about my vision here
                     </router-link>.
                   </p>
+                <h4 class="mt-5">Links</h4>
+                <div class="row">
+                  <p>Download my CV:</p>
+                  <div class="col-12">
+                    <a :href="`${publicPath}cv.pdf`" download class="readmore">Download CV</a>
+                  </div>
                 </div>
-                <p><a :href="`${publicPath}cv.pdf`" download class="readmore">Download CV</a></p>
+                <div class="row mt-3">
+                  <p>Download my pictures for communications:</p>
+                  <div  class="col-6">
+                    <a :href="`${publicPath}pictures/lancelotblanchard.jpg`"
+                       download class="readmore">
+                      Picture 1 (portrait)
+                    </a>
+                  </div>
+                  <div  class="col-6">
+                    <a :href="`${publicPath}pictures/lancelotblanchard-square.jpg`"
+                       download class="readmore">
+                      Picture 2 (square)
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
