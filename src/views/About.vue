@@ -27,15 +27,31 @@
                     read about my vision here
                     </router-link>.
                   </p> -->
-                <h4 class="mt-5">Links</h4>
-                <div class="row pl-2">
-                  <p>Download my CV:</p>
+                <h4 class="mt-5">Resources</h4>
+                <div class="row">
                   <div class="col-12">
-                    <a :href="`${publicPath}cv.pdf`" download class="readmore">Download CV</a>
+                    <p>Download my Resume or CV:</p>
+                  </div>
+                  <div class="col-6">
+                    <a :href="`${publicPath}resume.pdf`" download class="readmore">
+                      Download Resume
+                    </a>
+                  </div>
+                  <div class="col-6">
+                    <a :href="`${publicPath}cv.pdf`" download class="readmore">
+                      Download Academic CV
+                    </a>
                   </div>
                 </div>
-                <div class="row mt-3 pl-2">
-                  <p>Download my pictures for communications:</p>
+                <div class="row mt-3">
+                  <div class="col-12">
+                    <p><i>For a full Academic CV, please contact me via email.</i></p>
+                  </div>
+                </div>
+                <div class="row mt-1">
+                  <div class="col-12">
+                    <p>Download my pictures for communications:</p>
+                  </div>
                   <div  class="col-6">
                     <a :href="`${publicPath}pictures/lancelotblanchard.jpg`"
                        download class="readmore">
