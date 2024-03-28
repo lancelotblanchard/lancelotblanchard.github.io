@@ -21,20 +21,20 @@
                     conservatory where I studied classical piano and music theory for twelve years.
                     I have composed and performed with musicians in a variety of genres and formats.
                   </p>
-                  <p>
+                  <!-- <p>
                     To know more, you can
                     <router-link class="about-link" to="/vision">
                     read about my vision here
                     </router-link>.
-                  </p>
+                  </p> -->
                 <h4 class="mt-5">Links</h4>
-                <div class="row">
+                <div class="row pl-2">
                   <p>Download my CV:</p>
                   <div class="col-12">
                     <a :href="`${publicPath}cv.pdf`" download class="readmore">Download CV</a>
                   </div>
                 </div>
-                <div class="row mt-3">
+                <div class="row mt-3 pl-2">
                   <p>Download my pictures for communications:</p>
                   <div  class="col-6">
                     <a :href="`${publicPath}pictures/lancelotblanchard.jpg`"

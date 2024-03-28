@@ -62,11 +62,11 @@
               About Me
             </router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link class="nav-link" active-class="active" to="/vision" exact>
               Vision
             </router-link>
-          </li>
+          </li> -->
         </ul>
         <!-- <a ref="burger" href="#" class="burger" data-toggle="collapse"
            data-target="#main-navbar" @click="toggleBurger"

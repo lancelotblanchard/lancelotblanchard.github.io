@@ -2,20 +2,125 @@
 import Project from '@/classes/project';
 
 const projectList: Project[] = [
+  /* Jordan Rudess */
+  new Project('ai-accompaniment',
+    'Generative AI for Musical Accompaniment',
+    'Creating a novel Human-AI Co-Created Live Music Performance.',
+    ['Music', 'AI'],
+    '2024',
+    'ai-accompaniment.jpg',
+    'I am currently working in partnership with **Grammy-winning keyboardist Jordan Rudess** in a project to create a novel '
+    + '**Human-AI Co-Created Live Music Performance**.\n\n '
+    + 'Through optimized GPT2-based MIDI generation models, this project aims at generating real-time live accompaniment '
+    + 'for music performers. A large light structure, visualizing the generated voices, will enable the performer to interact '
+    + 'with the complexity of the AI voices by means of capacitive sensing.\n\n'
+    + 'The work was funded by **MIT\'s Generative AI Impact Publication Grant**, and will be published by MIT Press in '
+    + 'Summer 2024.',
+    undefined,
+    undefined),
+
+  /* MQDC */
+  new Project('restorative-forest',
+    'Restorative Forest',
+    'Reinforcing Environmental Awareness through AI Sonification of Forests.',
+    ['Music', 'AI'],
+    '2024',
+    'restorative-forest.jpg',
+    'The Forestias is a new development concept by the Magnolia Quality Development Corporation (MQDC), based in '
+    + 'Thailand. Currently under construction, the expansive parks and forests aim to engage residents with nature '
+    + 'only steps away from their residences.\n\n'
+    + 'In this project, the MIT Media Lab is collaborating with MQDC to develop **new experiences that aim at reinforcing '
+    + 'the environmental awareness** of the residents. One of these experiences focuses on using Generative AI to '
+    + 'offer a novel way to listen to natural sounds. Through a **vast sensor network deployed by the lab**, trail-goers '
+    + 'are able to listen to a soundtrack that fits their current activity (jogging, meditation, etc.), AI-generated in '
+    + 'real time using the sounds of nearby microphones.',
+    undefined,
+    undefined),
+
+  /* inHarmony */
+  new Project('inharmony',
+    'inHarmony',
+    'Reinforcing Community Belonging through AI Choirs',
+    ['Music', 'AI'],
+    '2024',
+    'inharmony.jpg',
+    'inHarmony is an opportunity for everyone to explore the **multiple and diverse singing voices** of their community, '
+    + 'while letting their own voice stand out.\n\n'
+    + 'Previous research has shown the effectiveness of group singing in the **reduction of anxiety and reinforcement of '
+    + 'community belonging**. Through state-of-the-art Singing Voice Conversion models (such as SVC and RVC), we are building '
+    + 'a novel experience in which participants are able to harmonize their own words in the voice of their community. '
+    + 'We study the impact of this experience on community belonging and social anxiety.\n\n'
+    + 'A publication for this work is in preparation for ISMIR 2024.',
+    undefined,
+    undefined),
+
+  /* FIBERHARP */
+  new Project('fiberharp',
+    'FiberHarp',
+    'A MIDI harp-like instrument that uses optical fiber.',
+    ['Music', 'Art'],
+    '2023',
+    'fiberharp.jpg',
+    'As part of the 2023 iteration of Prof. Neil Gershenfeld\'s class *How To Make (almost) Anything*, I dived into '
+    + 'the construction of various musical instruments using machines that can all be found within a FabLab. '
+    + 'For my final project, I designed and constructed a **real-size harp** made out of wood, with **sidelight optical '
+    + 'fiber** for strings. The strumming of the strings was captured through piezoelectric sensors and a microcontroller. '
+    + 'The result was a beautiful **MIDI controller with great playability and increased haptic feedback** compared to '
+    + 'more traditional laser harps.',
+    ['Visit my class page: \'How To Make Almost Any Instrument\'', 'https://fab.cba.mit.edu/classes/863.23/CBA/people/Lancelot'],
+    undefined),
+
+  /* SITUATIONSHIP */
+  new Project('situationship',
+    'SITUATIONSHIP',
+    'Exploring Relationships and Perspectives in an Intergalactic Dating Simulator.',
+    ['AI', 'Art'],
+    '2023',
+    'situationship.jpg',
+    'SITUATIONSHIP is a unique **dating simulator-like game** that delves into the intricate dynamics of relationships, '
+    + 'examining their profound impacts and **how social situations can be experienced from diverse perspectives**. Set '
+    + 'against the backdrop of an intergalactic payphone, players engage in conversations with extraterrestrial '
+    + 'beings from their past, aiming to deftly navigate challenging scenarios in a limited timeframe.\n\n'
+    + 'This innovative experience draws inspiration from the storytelling style of StoryCorps and the nostalgic '
+    + 'allure of 1-900 hotline commercials from the 1990s. Players immerse themselves within a specially designed '
+    + 'booth, using a web-based program on a touchscreen phone equipped with a handset to interact with the game. '
+    + 'Major thematic considerations encompass the profound sense of alienation that often accompanies the end of a '
+    + 'close relationship, alongside the exploration of agency and predictability in these poignant moments.',
+    undefined,
+    undefined),
+
   /* Argument Assessment from Dialogue */
-  /* TODO Check that I can use it on my website */
+  new Project('aipocalypse',
+    'AIPocalypse',
+    'Degenerative AI Podcasting',
+    ['AI', 'Art'],
+    '2023',
+    'aipocalypse.jpg',
+    'In a future where artificial intelligence can produce any media consent that we may desire, **how will it influence '
+    + 'the media which we consume?**\n\nThis project is an exploration of podcasting where everything from the host to the '
+    + 'music is completely AI generated from whatever the user wants to hear. The first run of the project was launched '
+    + 'during the 99 Friday MIT Media Lab party "*CONQUERED BY CLIPPY: Tales of a Degenerative AI.*" The inaugural podcast '
+    + 'theme delved into the speculative genre of a post-AI apocalypse, hosted by AI persona Max "The Exterminator” Stone. '
+    + 'Podcast topics are generated based on large language models and a text to speech, voice cloning of a 1950\'s radio '
+    + 'host, employing an elaborate system that can instantly produce thematically fitting content. Not only do the podcasts '
+    + 'discuss the topics, but they also address queries posed by listeners in real time, further emphasizing the '
+    + 'interactive potential of AI.',
+    undefined,
+    ['Theme3']),
+
+  /* Argument Assessment from Dialogue */
   new Project('argument-assistant',
     'Argument Assistant from Dialogue',
     'Augmenting Human Reasoning through an Intelligent Interface',
     ['AI', 'SoftEng'],
     '2022',
     'argument_assistant.jpg',
-    'As part of my Master of Research, I am working with Valdemar Danry and Professor Pattie Maes from MIT Media Lab to '
+    'As part of my Master of Research, I worked with Valdemar Danry and Professor Pattie Maes from the MIT Media Lab to '
     + 'construct a **Neurosymbolic AI** that **models human reasoning** and **analyses arguments and debates** expressed in '
-    + 'natural language. Our architecture seamlessly combines Deep Learning with Logic-based Learning to assist human '
+    + 'natural language. Our architecture seamlessly combined Deep Learning with Logic-based Learning to assist human '
     + 'users in **defining and expressing their thoughts logically**, **understanding and assessing supporting and challenging '
     + 'answers**, as well as **keeping up with complex discussions**.\n\n'
-    + 'Through this project, I aim to democratise logical reasoning, facilitate social interactions, and avoid emotional '
+    + 'Through this project, I aimed to democratise logical reasoning, facilitate social interactions, and avoid emotional '
     + 'manipulation, by applying the Argument Assistant to situations ranging from everyday conversations to political '
     + 'debates.',
     undefined,
@@ -28,11 +133,11 @@ const projectList: Project[] = [
     ['Music'],
     '2022',
     'stagefright.jpg',
-    'As part of a group project at MIT, I am co-developing StageFright, an **immersive VR experience** that aims to **combat '
+    'As part of a group project at MIT, I have co-developed StageFright, an **immersive VR experience** that aims to **combat '
     + 'Music Performance Anxiety** by **simulating a music performance**, **measuring users\' biofeedback**, and '
     + 'teaching them how to **apply Cognitive Behavioral Therapy techniques** to redefine their emotional response to MPA.\n\n'
     + 'A 2020 study showed that one in every five performers suffers from Music Performance Anxiety, making up for millions of '
-    + 'people around the world. Through an authentic performance simulation, we aim to help musicians, amateurs or professionals, '
+    + 'people around the world. Through an authentic performance simulation, we aimed to help musicians, amateurs or professionals, '
     + 'conquer their fear of playing in public in order to spread the accessibility of live music performances.',
     undefined,
     undefined),
@@ -73,25 +178,6 @@ const projectList: Project[] = [
     undefined,
     undefined),
 
-  /* Human Music */
-  new Project('human-music',
-    'Human Music',
-    'Generating music based on facial expressions, body language, and words.',
-    ['AI', 'Music'],
-    '2022',
-    'human_music.jpg',
-    'Music is a human feeling. To **create music through human mediums**, such as facial expressions, body language, '
-    + 'and the voice, is to **create music organically**, in an **intimate and personal way**. This is the motivation '
-    + 'behind this project. The developed model uses '
-    + 'Contrastive Learning and processes the user\'s facial expressions, body language, and words to generate '
-    + 'music that matches corresponding detected emotions. By using the universal medium of the body and the '
-    + 'face, I aim to make music creation as accessible as possible, and allow anyone to create music that can '
-    + 'capture any emotion and moment that they might go through, and want to remember in another format in the '
-    + 'future. Through this tool, I hope to enhance both the creativity of amateurs and professional musicians, '
-    + 'by offering an inexhaustible source of inspiration in a recording studio.',
-    undefined,
-    ['Theme2']),
-
   /* Explainable Music Classification */
   new Project('neurosymbolic-music-classification',
     'Neurosymbolic Music Classification',
@@ -99,7 +185,7 @@ const projectList: Project[] = [
     ['AI', 'Music'],
     '2022',
     'neurosymbolic_classifier.png',
-    'In this work in progress, I am constructing a novel **Music Theory-aware AI** that can **classify Music Genres** '
+    'In this work in progress, I developed a novel **Music Theory-aware AI** that can **classify Music Genres** '
     + 'using **explainable theoretical musical features**, and **communicate results in an interactive way**. The '
     + 'technology is based on [GenFastLAS](#/projects/genfastlas), the Genetic Symbolic Learner that I developed '
     + 'during my Master\'s Thesis Project, supplemented with an additional Neural subcomponent.\n\n'
@@ -108,8 +194,7 @@ const projectList: Project[] = [
     + 'benefits of users. The model can learn insightful rules used in the classification process such as '
     + '*"ii-V-I progressions indicate a jazz music piece with a higher probability"*. By letting the user '
     + 'navigate between music genres and music theory concepts, the system gives a new insight into the classification '
-    + 'of genres, and embeds a novel way of exploring information and teaching subjects like musicology or others.\n\n'
-    + 'I am currently writing a paper for ISMIR 2023.',
+    + 'of genres, and embeds a novel way of exploring information and teaching subjects like musicology or others.\n\n',
     undefined,
     ['Theme1']),
 

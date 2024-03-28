@@ -10,14 +10,16 @@
           <div id="filters" class="filters">
             <a href="#" @click="filter('*')"
                v-bind:class="{ active : filterOption === '*' }">All</a>
+            <a href="#" @click="filter('Music')"
+               v-bind:class="{ active : filterOption === 'Music' }">Music</a>
             <a href="#" @click="filter('AI')"
                v-bind:class="{ active : filterOption === 'AI' }">AI</a>
+            <a href="#" @click="filter('Art')"
+               v-bind:class="{ active : filterOption === 'Art' }">Art</a>
             <a href="#" @click="filter('SoftEng')"
                v-bind:class="{ active : filterOption === 'SoftEng' }">SoftEng</a>
             <a href="#" @click="filter('Data')"
                v-bind:class="{ active : filterOption === 'Data' }">Data</a>
-            <a href="#" @click="filter('Music')"
-               v-bind:class="{ active : filterOption === 'Music' }">Music</a>
           </div>
         </div>
       </div>
@@ -71,6 +73,7 @@ export default class Portfolio extends Vue {
       Data: (project: Project) => project.types.includes('Data'),
       AI: (project: Project) => project.types.includes('AI'),
       Music: (project: Project) => project.types.includes('Music'),
+      Art: (project: Project) => project.types.includes('Art'),
     },
   };
 

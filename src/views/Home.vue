@@ -6,7 +6,7 @@
       <p data-aos="fade-up" data-aos-delay="200">
         I am a musician, engineer, and AI researcher currently based in Boston, MA.
         I am a Research Assistant in the Responsive Environments group of the MIT
-        Media Lab, carrying out research on the applications of generative AI for
+        Media Lab, carrying out research on the applications of Generative AI for
         musical expression and communication. I am working with multiple
         artists and musicians to design interfaces that embed AI and use analog
         and digital signals to create new musical experiences.</p>
@@ -17,13 +17,13 @@
         novel forms of expressivity and entertainment and allow new possibilities.</p>
     </div>
     <div class="row mt-5 home-navigation" data-aos="fade-up" data-aos-delay="300">
-      <div class="col-2 offset-3">
+      <div class="col-lg-2 col-6 offset-lg-4">
         <router-link class="nav-link" to="/projects" exact>View my projects</router-link>
       </div>
-      <div class="col-2">
+      <!-- <div class="col-2">
         <router-link class="nav-link" to="/vision" exact>Read my vision</router-link>
-      </div>
-      <div class="col-2">
+      </div> -->
+      <div class="col-lg-2 col-6">
         <router-link class="nav-link" to="/about" exact>More about me</router-link>
       </div>
     </div>
