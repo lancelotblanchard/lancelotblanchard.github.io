@@ -43,11 +43,6 @@
                     </a>
                   </div>
                 </div>
-                <div class="row mt-3">
-                  <div class="col-12">
-                    <p><i>For a full Academic CV, please contact me via email.</i></p>
-                  </div>
-                </div>
                 <div class="row mt-1">
                   <div class="col-12">
                     <p>Download my pictures for communications:</p>
