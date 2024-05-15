@@ -50,7 +50,7 @@ const projectList: Project[] = [
     + 'community belonging**. Through state-of-the-art Singing Voice Conversion models (such as SVC and RVC), we are building '
     + 'a novel experience in which participants are able to harmonize their own words in the voice of their community. '
     + 'We study the impact of this experience on community belonging and social anxiety.\n\n'
-    + 'A publication for this work is in preparation for ISMIR 2024.',
+    + 'A publication for this work is in preparation.',
     undefined,
     undefined),
 
@@ -159,7 +159,7 @@ const projectList: Project[] = [
     + 'living memories from any data source and implemented living memories of the three historical figures *Leonardo Da Vinci*, '
     + '*Murasaki Shikibu*, and *Captain Robert Scott*. Our results show that interacting the living memory in addition to simply '
     + 'reading a journal increases learning effectiveness and motivation to learn about the character.\n\n'
-    + 'Our paper is currently under review for IUI 2023.',
+    + 'Our paper was published in IUI 2023.',
     undefined,
     ['Theme1']),
 
