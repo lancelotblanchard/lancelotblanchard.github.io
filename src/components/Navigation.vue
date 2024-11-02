@@ -6,7 +6,7 @@
           <div class="col-md-2">
             <ul class="custom-menu">
               <li @click="toggleBurger" data-toggle="collapse" data-target="#main-navbar">
-                <router-link to="/" exact>Home</router-link>
+                <router-link to="/" exact>Projects</router-link>
               </li>
               <li @click="toggleBurger" data-toggle="collapse" data-target="#main-navbar">
                 <router-link to="/about" exact>About Me</router-link>
@@ -49,14 +49,14 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <router-link class="nav-link" active-class="active" to="/" exact>
-              Home
+              Projects
             </router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link class="nav-link" active-class="active" to="/projects" exact>
               Portfolio
             </router-link>
-          </li>
+          </li> -->
           <li class="nav-item">
             <router-link class="nav-link" active-class="active" to="/about" exact>
               About Me

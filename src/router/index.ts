@@ -5,13 +5,13 @@ import Home from '../views/Home.vue';
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: Home,
+  // },
   {
     path: '/',
-    name: 'Home',
-    component: Home,
-  },
-  {
-    path: '/projects',
     name: 'Portfolio',
     component: () => import(/* webpackChunkName: "portfolio" */ '../views/Portfolio.vue'),
   },

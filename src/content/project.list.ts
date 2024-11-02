@@ -9,14 +9,15 @@ const projectList: Project[] = [
     ['Music', 'AI'],
     '2024',
     'ai-accompaniment.jpg',
-    'I am currently working in partnership with **Grammy-winning keyboardist Jordan Rudess** in a project to create a novel '
+    'I am currently working in partnership with **GRAMMY-winning keyboardist Jordan Rudess** in a project to create a novel '
     + '**Human-AI Co-Created Live Music Performance**.\n\n '
     + 'Through optimized GPT2-based MIDI generation models, this project aims at generating real-time live accompaniment '
-    + 'for music performers. A large light structure, visualizing the generated voices, will enable the performer to interact '
-    + 'with the complexity of the AI voices by means of capacitive sensing.\n\n'
-    + 'The work was funded by **MIT\'s Generative AI Impact Publication Grant**, and will be published by MIT Press in '
-    + 'Summer 2024.',
-    undefined,
+    + 'for music performers. A large kinetic sculpture, visualizing the generated voices, enables the audience to visualize '
+    + 'this non-human musical agent embodied on stage.\n\n'
+    + 'The work was funded by **MIT\'s Generative AI Impact Publication Grant**, for which we wrote a paper published by MIT Press. '
+    + 'So far, we presented this work in a live performance at the MIT Media Lab on September 21st, 2024, and at the AES 2024 '
+    + 'Show in NYC. We will also be presenting it at NAMM 2025.',
+    ['Read our impact paper', 'https://doi.org/10.21428/e4baedd9.69c11de7'],
     undefined),
 
   /* MQDC */

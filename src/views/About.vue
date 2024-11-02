@@ -13,13 +13,17 @@
               </div>
               <div class="single-post-content-wrapper pr-5" data-aos="fade-up" data-aos-delay="200">
                   <p>
-                    I am a musician, engineer, and AI researcher, currently pursuing a
-                    Master's in the Responsive Environments research group of the MIT Media
-                    Lab. I hold a Master's of Research in Artificial Intelligence and Machine
-                    Learning and a Master's of Engineering in Computing from Imperial College
-                    London. In addition to my engineering studies, I graduated from the French
-                    conservatory where I studied classical piano and music theory for twelve years.
-                    I have composed and performed with musicians in a variety of genres and formats.
+                    I am a musician, engineer, and AI researcher currently based in Boston, MA
+                    and pursuing a PhD in the Responsive Environments group of the MIT Media Lab.
+                    My research explores the potential for generative AI systems to enhance the
+                    creative processes of musicians, with a special focus on live performances. I
+                    have collaborated with multiple artists to create innovative tools for real-time
+                    AI-augmented music making. I hold a Master's of Research in Artificial
+                    Intelligence and Machine Learning and a Master's of Engineering in Computing
+                    from Imperial College London. In addition to my engineering studies, I graduated
+                    from the French conservatory where I studied classical piano and music theory
+                    for twelve years. I have composed and performed with musicians in a variety of
+                    genres and formats.
                   </p>
                   <!-- <p>
                     To know more, you can

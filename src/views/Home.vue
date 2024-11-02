@@ -4,12 +4,12 @@
       <h1 data-aos="fade-up" data-aos-delay="100">Hello, I'm Lancelot.</h1>
 
       <p data-aos="fade-up" data-aos-delay="200">
-        I am a musician, engineer, and AI researcher currently based in Boston, MA.
-        I am a Research Assistant in the Responsive Environments group of the MIT
-        Media Lab, carrying out research on the applications of Generative AI for
-        musical expression and communication. I am working with multiple
-        artists and musicians to design interfaces that embed AI and use analog
-        and digital signals to create new musical experiences.</p>
+        I am a musician, engineer, and AI researcher currently based in Boston, MA and pursuing
+        a PhD in the Responsive Environments group of the MIT Media Lab. My research explores
+        the potential for generative AI systems to enhance the creative processes of musicians,
+        with a special focus on live performances. I have collaborated with multiple artists to
+        create innovative tools for real-time AI-augmented music making. carrying out research
+        on the applications of Generative AI for musical expression and communication.</p>
       <p data-aos="fade-up" data-aos-delay="200">
         Innovation and technology have always been key to the expansion of human
         creativity and imagination. Today, I believe that modern technologies like AI
